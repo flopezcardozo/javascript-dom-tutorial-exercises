@@ -4,3 +4,6 @@ document.querySelector("#myDiv").appendChild(elem);
 
 //Your code here
 // Don'change the code above
+let varAmarilla = document.createElement("p");
+varAmarilla.innerHTML = "yellow";
+document.querySelector("#myDiv").appendChild(varAmarilla);
